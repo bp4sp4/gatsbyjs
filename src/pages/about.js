@@ -23,7 +23,7 @@ export default function About({data}) {
           good miss when sell some at if. Told hand so an rich gave next. How
           doubt yet again see son smart. While mirth large of on front. Ye he
           greater related adapted proceed entered an. Through it examine express
-          promise no. Past add size game cold girl off how old.
+          promise no. Past add size game cold girl off how olddd.
           <br />
           <br />
           Bringing so sociable felicity supplied mr. September suspicion far him
