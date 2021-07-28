@@ -19,14 +19,14 @@ export function Footer() {
   return (
     <Container>
       <ButtonLink
-        href="https://mobile.twitter.com/lewislbr"
+        href="https://m.facebook.com/profile.php"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Twitter
+        FaceBook
       </ButtonLink>
       <ButtonLink
-        href="https://github.com/lewislbr/lewis-gatsby-starter-blog"
+        href="https://github.com/bp4sp4/"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -9,6 +9,8 @@ import {
   SEO,
   TextBody,
   TextDate,
+  AboutMe,
+  Skills,
 } from "../components"
 import {BREAKPOINT} from "../utils/constants"
 
@@ -51,13 +53,11 @@ export default function Home({data}) {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>SangHun Gatsby Starter Blog</HeadingXL>
-          <TextHome>
-            This is a custom Gatsby starter template to start a new blog or
-            personal website.
-          </TextHome>
+          <HeadingXL>SangHun Portfolio Blog</HeadingXL>
         </Hero>
-        {data.allMarkdownRemark.edges.map(({node}) => (
+        <AboutMe />
+        <Skills />
+        {/* {data.allMarkdownRemark.edges.map(({node}) => (
           <Link to={node.fields.slug} key={node.id}>
             <Post>
               <HeadingL>{node.frontmatter.title}</HeadingL>
@@ -65,7 +65,8 @@ export default function Home({data}) {
               <TextDate>{node.frontmatter.date}</TextDate>
             </Post>
           </Link>
-        ))}
+        ))} */}
+
       </Layout>
     </>
   )
