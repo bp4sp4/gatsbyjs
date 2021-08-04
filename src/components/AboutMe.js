@@ -76,7 +76,7 @@ export function AboutMe({data}) {
       </div> : null}
       { number === 2 ? <div>
        <div>
-          <a href="#" class="btn3">사이트 바로가기</a>
+          <a href="#" class="btn3">사이트로 바로가기</a>
           </div>
           <div>
           <iframe class="wh-3"></iframe>
