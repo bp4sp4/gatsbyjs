@@ -12,3 +12,5 @@ export {Layout} from "./Layout"
 export {SEO} from "./SEO"
 export {TextBody} from "./TextBody"
 export {TextDate} from "./TextDate"
+export {AboutMe} from "./AboutMe";
+export {Skills} from "./Skills";
