@@ -114,3 +114,26 @@ h2 {
     margin-top: 110px;
     margin-left: -260px;
   }
+
+#topmenu {
+    height: 30px;
+    width: 850px; 
+  }
+#topmenu ul li {
+  list-style: none;
+  color: white;
+  background-color: #2d2d2d;
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+#topmenu .menulink {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 150px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', Arial;
+}

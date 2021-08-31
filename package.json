@@ -40,3 +40,8 @@
     "styled-components": "^5.2.1"
   }
 }
+{
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  }
+}

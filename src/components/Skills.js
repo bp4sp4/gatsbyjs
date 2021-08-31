@@ -26,7 +26,7 @@ export function Skills({data}) {
     <>
       <GlobalStyles/>
       <Wrapper>
-    
+        <div>Skills</div>
       </Wrapper>
     </>
   )

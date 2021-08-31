@@ -25,6 +25,7 @@ export function AboutMe({data}) {
   return (
     <>
       <GlobalStyles/>
+
       <Wrapper>
         <div>AboutMe</div>
       </Wrapper>
@@ -63,7 +64,7 @@ export function AboutMe({data}) {
           <a href="#" class="btn">사이트 바로가기</a>
           </div>
           <div>
-          <iframe class="wh-1" src="http://bp2sp2.dothome.co.kr/"></iframe>
+          <iframe src="http://bp6sp6.dothome.co.kr/"class="wh-1"></iframe>
           </div>
         </div> : null}
       { number === 1 ? <div>
@@ -71,15 +72,15 @@ export function AboutMe({data}) {
           <a href="#" class="btn2">사이트 바로가기</a>
           </div>
           <div>
-          <iframe class="wh-2"></iframe>
+          <iframe src="http://bp3sp3.dothome.co.kr/" class="wh-2"></iframe>
           </div>
       </div> : null}
       { number === 2 ? <div>
        <div>
-          <a href="#" class="btn3">사이트로 바로가기</a>
+          <a href="#" class="btn3">사이트 바로가기</a>
           </div>
           <div>
-          <iframe class="wh-3"></iframe>
+          <iframe src="http://bp2sp2.dothome.co.kr/" class="wh-3"></iframe>
           </div>
       </div> : null  }
 
